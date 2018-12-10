@@ -15,6 +15,10 @@
 		4831D501203F094800D65F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4831D4FF203F094800D65F25 /* LaunchScreen.storyboard */; };
 		4831D50C203F094800D65F25 /* mcdonald_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831D50B203F094800D65F25 /* mcdonald_LocatorTests.swift */; };
 		4831D517203F094800D65F25 /* mcdonald_LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831D516203F094800D65F25 /* mcdonald_LocatorUITests.swift */; };
+		4831D525203F0AB800D65F25 /* mcdonalds_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4831D524203F0AB800D65F25 /* mcdonalds_data.json */; };
+		4831D529203F0B1C00D65F25 /* StoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831D528203F0B1C00D65F25 /* StoreLocation.swift */; };
+		4831D52B203F10D700D65F25 /* CustomPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831D52A203F10D700D65F25 /* CustomPins.swift */; };
+		4831D52D203F13E900D65F25 /* french-fries.png in Resources */ = {isa = PBXBuildFile; fileRef = 4831D52C203F13E900D65F25 /* french-fries.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		4831D512203F094800D65F25 /* mcdonald LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mcdonald LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4831D516203F094800D65F25 /* mcdonald_LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcdonald_LocatorUITests.swift; sourceTree = "<group>"; };
 		4831D518203F094800D65F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4831D524203F0AB800D65F25 /* mcdonalds_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mcdonalds_data.json; sourceTree = "<group>"; };
+		4831D528203F0B1C00D65F25 /* StoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocation.swift; sourceTree = "<group>"; };
+		4831D52A203F10D700D65F25 /* CustomPins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPins.swift; sourceTree = "<group>"; };
+		4831D52C203F13E900D65F25 /* french-fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "french-fries.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		4831D4F2203F094800D65F25 /* mcdonald Locator */ = {
 			isa = PBXGroup;
 			children = (
+				4831D524203F0AB800D65F25 /* mcdonalds_data.json */,
 				4831D4F3203F094800D65F25 /* AppDelegate.swift */,
 				4831D4F5203F094800D65F25 /* ViewController.swift */,
+				4831D52A203F10D700D65F25 /* CustomPins.swift */,
+				4831D528203F0B1C00D65F25 /* StoreLocation.swift */,
 				4831D4F7203F094800D65F25 /* Main.storyboard */,
 				4831D4FD203F094800D65F25 /* Assets.xcassets */,
+				4831D52C203F13E900D65F25 /* french-fries.png */,
 				4831D4FF203F094800D65F25 /* LaunchScreen.storyboard */,
 				4831D502203F094800D65F25 /* Info.plist */,
 				4831D4FA203F094800D65F25 /* mcdonald_Locator.xcdatamodeld */,
@@ -236,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4831D501203F094800D65F25 /* LaunchScreen.storyboard in Resources */,
+				4831D525203F0AB800D65F25 /* mcdonalds_data.json in Resources */,
 				4831D4FE203F094800D65F25 /* Assets.xcassets in Resources */,
 				4831D4F9203F094800D65F25 /* Main.storyboard in Resources */,
+				4831D52D203F13E900D65F25 /* french-fries.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4831D529203F0B1C00D65F25 /* StoreLocation.swift in Sources */,
 				4831D4FC203F094800D65F25 /* mcdonald_Locator.xcdatamodeld in Sources */,
+				4831D52B203F10D700D65F25 /* CustomPins.swift in Sources */,
 				4831D4F6203F094800D65F25 /* ViewController.swift in Sources */,
 				4831D4F4203F094800D65F25 /* AppDelegate.swift in Sources */,
 			);
